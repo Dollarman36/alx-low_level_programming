@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 /**
 * main - Begin of execution
 *
@@ -8,23 +7,23 @@
 */
 int main(void)
 {
-	int hundred, tens, unity, number;
+	int hundred, tens, unit, number;
 
 	for (number = 0; number <= 999; number++)
 	{
 		hundred = number / 100;
 		tens = number / 10 % 10;
-		unity = number % 10;
+		unit = number % 10;
 
 		if (hundred < tens)
 		{
-			if (hundred < unity)
+			if (hundred < unit)
 			{
 				putchar(hundred + 48);
 				putchar(tens + 48);
-				putchar(unity + 48);
+				putchar(unit + 48);
 
-				if (hundred * 100 + tens * 10 + unity != 789)
+				if (hundred * 100 + tens * 10 + unit != 789)
 				{
 					putchar(',');
 					putchar(' ');
