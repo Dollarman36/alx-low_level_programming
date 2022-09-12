@@ -19,8 +19,9 @@ int main(void)
 		{
 			if (hundred < unit)
 			{
-				if (tens < unity)
+				if (tens < unit)
 				{
+
 				putchar(hundred + 48);
 				putchar(tens + 48);
 				putchar(unit + 48);
