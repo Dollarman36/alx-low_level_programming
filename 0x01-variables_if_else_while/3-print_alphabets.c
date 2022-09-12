@@ -17,9 +17,7 @@ int main(void)
 		c++;
 	}
 	
-	
 	c = 'A';
-
 	
 	while (c <= 'Z')
 	{
@@ -27,6 +25,6 @@ int main(void)
 		c++;
 	}
 	printf("\n");
-
+	
 	return (0);
 }
