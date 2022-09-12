@@ -23,6 +23,5 @@ int main(void)
 		c++;
 	}
 	printf("\n");
-	
 	return (0);
 }
