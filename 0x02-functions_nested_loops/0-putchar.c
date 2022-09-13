@@ -1,6 +1,6 @@
-#include "alx.h"
+#include <stdio.h>
 /**
-*main - prints the string "Holberton" from a character array.
+*main - prints the string "ALX" from a character array.
 *Return: 0 on success.
 */
 int main(void)
