@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "holberton.h"
 /**
 *main - prints the string "ALX" from a character array.
 *Return: 0 on success.
