@@ -1,4 +1,6 @@
-#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
 * _putchar - writes the character _putchar to stdout
@@ -7,7 +9,8 @@
 * Return: On success 1.
 * On error, -1 is returned, and errno is set appropriately.
 */
-void _putchar(void)
+int main(voi)
 {
-	return (write(1, "_putchar\n", 9));
+	printf("_putchar\n");
+	return (0);
 }
