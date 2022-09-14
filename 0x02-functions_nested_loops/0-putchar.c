@@ -1,13 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
-* _putchar - writes the character _putchar to stdout
-* @c: The character to print
+* main entry point
 *
-* Return: On success 1.
-* On error, -1 is returned, and errno is set appropriately.
+* Return : Always success
 */
 int main(void)
 {
