@@ -4,7 +4,7 @@
 #include <time.h>
 #include <string.h>
 /**
- * Main - Entry point
+ * main function allows the string _putchar to be displayed.
  *
  * Return: Always success
  */
@@ -14,5 +14,5 @@ int main(void)
 
 	printf("_putchar\n");
 
-	return 0;
+	return (0);
 }
