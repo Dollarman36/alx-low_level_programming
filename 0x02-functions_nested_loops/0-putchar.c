@@ -5,6 +5,7 @@
 #include <string.h>
 /**
  * main function allows the string _putchar to be displayed.
+ * putchar displayed onscreen
  *
  * Return: Always success
  */
