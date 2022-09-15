@@ -4,11 +4,10 @@
 #include <time.h>
 #include <string.h>
 /**
- * main function allows the string _putchar to be displayed.
- * putchar displayed onscreen
- *
- * Return: Always success
- */
+* main - Prints the string _putchar
+*
+* Return: Always 0 (Success)
+*/
 
 int main(void)
 {
