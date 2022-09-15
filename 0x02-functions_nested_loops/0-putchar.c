@@ -1,18 +1,14 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 #include "main.h"
 #include <unistd.h>
 
 /**
-* main begins the program
 * _putchar - writes the character c to stdout
+* @c: The character to print
 *
 * Return: On success 1.
-* On error, -1 is returned, and error is set appropriately.
+* On error, -1 is returned, and errno is set appropriately.
 */
-int main(void)
+int _putchar(char c)
 {
-	printf("_putchar\n");
-	return (0);
+	return (write(1, &c, 1));
 }
