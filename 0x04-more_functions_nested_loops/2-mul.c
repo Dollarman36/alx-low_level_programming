@@ -2,12 +2,16 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- * 
+ * mul - multiplies two integers
+ * @a: number being tested
+ * @b: number being tested
  * Return: Always 0.
  */
 
 int mul(int a, int b)
 {
-	return (a * b);
+	int product;
+
+	product = a * b;
+	return (product);
 }
