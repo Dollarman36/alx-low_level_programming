@@ -2,10 +2,9 @@
 
 /**
  * _puts - check the code 
- * String to be printed out
+ * @str: String to be printed out
  *  Return: Always 0.
  */
-
 void _puts(char *str)
 {
 	int i;
