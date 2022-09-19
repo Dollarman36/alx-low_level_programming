@@ -2,8 +2,8 @@
 
 /**
  * strlen - check the code
- *  Inputted string pointer
- *  Return: Always 0
+ *  @s: Inputted string pointer
+ * Return: Always 0
  */
 int _strlen(char *s)
 {
