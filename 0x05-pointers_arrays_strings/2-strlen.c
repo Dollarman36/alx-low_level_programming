@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * strlen - check the code
+ * _strlen - check the code
  *  @s: Inputted string pointer
  * Return: Always 0
  */
+
 int _strlen(char *s)
 {
 	int i;
