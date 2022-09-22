@@ -22,6 +22,7 @@ char *cap_string(char *s)
 	return (s);
 }
 
+
 /**
  * look_no_sep - compares if input is not a separator listed in sep
  * @s: pointer to string
@@ -50,7 +51,8 @@ int look_no_sep(char *s, int *i)
 			j++;
 		}
 		k++;
-	}*i = k;
+	}
+	*i = k;
 	return (0);
 }
 
