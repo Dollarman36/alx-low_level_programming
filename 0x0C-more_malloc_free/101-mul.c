@@ -169,5 +169,5 @@ int _strlen(char *s, int *offs)
 			++count;
 		s++;
 	}
-	return (count);
+	return count;
 }
