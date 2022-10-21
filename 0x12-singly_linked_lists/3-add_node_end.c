@@ -26,12 +26,13 @@ list_t *add_node_end(list_t **head, const char *str)
 	}
 	else
 	{
+		/*getting the len of str*/
 		while (str[len] != '\0')
 			len++;
 		new->len = len;
 		new->str = strdup(str);
 	}
-
+	/*if first element (head) is NULL*/
 	if (node == NULL)
 	{
 		*head = new;
@@ -39,10 +40,12 @@ list_t *add_node_end(list_t **head, const char *str)
 
 		return (new);
 	}
+	/*finding last node element in list*/
 	while (node->next != NULL)
-
-		new->next = NULL;
 		node = node->next;
+
+	new->next = NULL;
+	node->next = new;
 
 	return (new);
 }
