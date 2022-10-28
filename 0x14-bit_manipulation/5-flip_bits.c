@@ -6,7 +6,7 @@
  *  @n: first number to compare bitwise with m.
  *  @m: second number to compare bitwise with n.
  *
- *  Return: the number of bits needed to flip to get from one number to another.
+ * Return: the number of bits needed to flip to get from one number to another.
  */
 
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
