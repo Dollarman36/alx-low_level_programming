@@ -1,6 +1,6 @@
 /*
  * File: 103-exponential.c
- * Auth: Brennan D Baraban
+ * Auth: Nnadi Dollars C
  */
 
 #include "search_algos.h"

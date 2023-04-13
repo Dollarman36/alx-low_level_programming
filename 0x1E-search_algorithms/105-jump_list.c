@@ -1,6 +1,6 @@
 /*
  * File: 105-jump_list.c
- * Auth: Brennan D Baraban
+ * Auth: Nnadi Chika D
  */
 
 #include "search_algos.h"
